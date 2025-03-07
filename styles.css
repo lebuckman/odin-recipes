@@ -1,0 +1,32 @@
+:root {
+	--clr-black: hsl(221deg 20% 8%);
+	--clr-white: hsl(221deg 20% 100%);
+	--clr-accent: hsl(221deg 20% 60%);
+}
+
+body {
+	background-color: var(--clr-black);
+	color: var(--clr-white);
+}
+
+a {
+	color: var(--clr-accent);
+}
+
+a:hover {
+	cursor: pointer;
+	color: var(--clr-white);
+}
+
+#landing-page {
+	text-align: center;
+}
+
+.recipes li {
+	list-style: none;
+	line-height: 2;
+}
+
+ul.recipes {
+	padding-left: 0;
+}
