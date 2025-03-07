@@ -5,8 +5,22 @@
 }
 
 body {
+	padding: 3em;
 	background-color: var(--clr-black);
 	color: var(--clr-white);
+}
+
+figure {
+	margin: 3em 0;
+}
+
+figcaption {
+	font-size: .85rem;
+	width: 60ch;
+}
+
+ol li {
+	margin-block: .75em;
 }
 
 a {
